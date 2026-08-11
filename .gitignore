@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.spec
+.pytest_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 运行时数据（用户数据，不入库）
+data/logs/
+data/tasks/
+data/scraped/
+data/scripts/
+data/config/
+data/webengine_cache/
+
+# 操作系统
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Playwright
+playwright.log
+
+# PyInstaller
+*.manifest
