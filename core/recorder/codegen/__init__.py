@@ -4,6 +4,7 @@ from typing import List
 from .base import BaseGenerator
 from .python_gen import PythonGenerator
 from .js_gen import JavaScriptGenerator
+from .ts_gen import TypeScriptGenerator
 from .csharp_gen import CSharpGenerator
 from .java_gen import JavaGenerator
 from ..action_models import Action
@@ -11,7 +12,7 @@ from ..action_models import Action
 _GENERATORS = {
     "python": PythonGenerator,
     "javascript": JavaScriptGenerator,
-    "typescript": JavaScriptGenerator,
+    "typescript": TypeScriptGenerator,
     "csharp": CSharpGenerator,
     "java": JavaGenerator,
 }
